@@ -34,7 +34,7 @@ function finalize () {
 webpack(webpackConfig, function (err, stats) {
   if (err) throw err
 
-  process.stdout.write(stats.toString({
+/*   process.stdout.write(stats.toString({
     colors: true,
     modules: false,
     children: false,
@@ -44,7 +44,7 @@ webpack(webpackConfig, function (err, stats) {
 
   if (stats.hasErrors()) {
     process.exit(1)
-  }
+  } */
 
   if (config.build.purifyCSS) {
     css.purify(finalize)

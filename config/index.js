@@ -46,7 +46,7 @@ module.exports = {
     // https://github.com/chimurai/http-proxy-middleware
     proxyTable: {
       '/api': {
-        target: 'http://localhost:8000/api',
+        target: 'http://april.local/api',
         changeOrigin: true,
         pathRewrite: {
           '^/api': ''
