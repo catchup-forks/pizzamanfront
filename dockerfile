@@ -10,6 +10,6 @@ RUN npm install
 
 COPY . /opt/app
 
-EXPOSE 8080
+EXPOSE 8087
 
 CMD /bin/sh

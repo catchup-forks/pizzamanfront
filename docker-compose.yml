@@ -3,11 +3,11 @@ version: '2'
 services:
   app:
     build: .
-    image: your-docker-org/your-app-name
+    image: siffra/android-quasar-cordova
     command: sh
     volumes:
       - .:/opt/app
       - /opt/app/node_modules
     ports:
-      - 8080:8080
+      - 8087:8080
     tty: true
