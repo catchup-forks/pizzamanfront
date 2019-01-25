@@ -2,7 +2,7 @@ import Router from './router'
 import { Toast, LocalStorage, Loading } from 'quasar'
 import axios from 'axios'
 
-const LOGIN_URL = 'authenticate'
+const LOGIN_URL = 'login'
 const SIGNUP_URL = 'register'
 const USER_URL = 'authenticate/user'
 const REFRESH_TOKEN = 'refresh-token'
